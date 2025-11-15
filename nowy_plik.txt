@@ -1,3 +1,5 @@
 fdsjkljklds
 reiowpfdfdajkldsa
 trzecia linijka z maszyny lokalnej
+czwarta linijka prosto z github
+
