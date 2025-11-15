@@ -1,2 +1,4 @@
 testowa tresc na 1 linijke
 nie tu będzie w ogole co innego
+dodatkowa tresc na 2 linijke
+
