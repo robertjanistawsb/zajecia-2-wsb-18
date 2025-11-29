@@ -1,0 +1,43 @@
+  +-----------------------------------------+
+  |           System / Aplikacja           |
+  +-----------------------------------------+
+
+   +------------+            +----------------------+            +---------------+
+   | Użytkownik |----------->( Uruchom zadanie )<-----------| Scheduler/Planer |
+   +------------+            +----------------------+            +---------------+
+ |                          |        |                          |
+ |                          |        v                          |
+ |                          |    +----------------+              |
+ |                          |    |Sprawdź status  |<-------------+
+ |                          |    +----------------+
+ |                          v
+ |                +--------------------------+
+ |--------------->( Przeglądaj wyniki/logi )<---------------+
+ |                +--------------------------+              |
+ |                          |                              |
+ |                          v                              |
+ |                +--------------------------+             |
+ +--------------->( Pobierz / Eksportuj raport )<-----------+
+      +--------------------------+
+
+   +---------------+                    |                    +------------------+
+   | Administrator |------------------->( Konfiguruj system )<--| System zewnętrzny|
+   +---------------+                    |                    +------------------+
+ |                               
+ |                               
+ v                               
+   +----------------------+               
+   | Zarządzaj użytkownikami |           
+   +----------------------+               
+
+   +----------------------+
+   | Tester / CI Pipeline |
+   +----------------------+
+ |
+ v
+   ( Uruchom testy ) --> ( Przeglądaj wyniki testów )
+
+Legenda:
+- Aktorzy: Użytkownik, Administrator, Scheduler/Planer, Tester/CI, System zewnętrzny
+- Przypadki użycia (środkowa część): cele użytkowników, np. Uruchom zadanie, Przeglądaj wyniki, Konfiguruj system, Uruchom testy, Pobierz raport
+- Strzałki pokazują, kto inicjuje dany przypadek użycia i powiązania między przypadkami.
