@@ -1,1 +1,48 @@
+# Pomysł
+Aplikacja wspomagająca zarządzanie środowiskiem pracy informatyka (studenta/stażysty). Ma ułatwić konfigurację, dokumentację i szybki dostęp do narzędzi, skryptów i ustawień projektów.
 
+## inspiracje (słowa, skojarzenia, pomysły)
+- dotfiles, config, aliasy
+- skróty do terminala, skrypty uruchamiające
+- checklisty konfiguracji (IDE, git, SSH)
+- snippets / kawałki kodu
+- profile projektów (dev, test, prod)
+- szablony README, instrukcje setup
+- integracja z VSCode, Docker, WSL
+- eksport / import konfiguracji
+- dzielenie się konfiguracjami z zespołem
+
+## krótka lista elementów projektu
+- baza profili środowisk (nazwa, opis, lista plików/komend)
+- edytor snippetów i dotfiles
+- kroki konfiguracji (checklist)
+- panel szybkich komend / aliasów
+- import/eksport profilu (JSON/YAML)
+- prosty interfejs CLI + GUI (web)
+- wersjonowanie konfiguracji (historia)
+
+### wstępne dane wejściowe (np. lista kategorii, lista funkcji)
+- kategorie:
+    - IDE (VSCode, IntelliJ)
+    - terminal (bash, zsh, powershell)
+    - kontenery (Docker)
+    - narzędzia (git, node, python)
+    - system (Windows, Linux)
+- funkcje:
+    - dodaj/edytuj profil
+    - dodaj snippet / plik konfiguracyjny
+    - oznacz kroki jako zrobione
+    - uruchom skrypt inicjalizacyjny
+    - import/eksport profilu
+    - wyszukaj po tagach
+
+### lista źródeł pomysłu (np. znajomy, własna potrzeba, przypadek)
+- własna potrzeba — wielokrotne ręczne konfigurowanie środowisk
+- rozmowy ze znajomymi ze studiów/stażu
+- obserwacja repozytoriów z dotfiles na GitHub
+- zadania z kursu wymagające szybkiego przełączania konfiguracji
+
+# opis projektu:
+```
+Projekt dotyczy aplikacji ułatwiającej przygotowanie i odtworzenie środowiska pracy informatyka. Rozwiązuje problem rozproszonej dokumentacji i konieczności ręcznego powtarzania konfiguracji na różnych maszynach. Odbiorcami są studenci i młodzi programiści (18–30 lat) oraz osoby na stażach / w małych zespołach, które potrzebują szybkiego setupu. Kluczowe elementy: profile środowisk, lista kroków do konfiguracji, biblioteka snippetów, możliwość eksportu/importu i prosty interfejs CLI oraz lekka aplikacja webowa do przeglądania i edycji.
+```
