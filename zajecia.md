@@ -17,3 +17,5 @@ ostatni tekst
   ```
 
 [tutaj jest link](https://www.merito.pl/)
+
+![opis obrazka](merito_lgoo.jpg)
